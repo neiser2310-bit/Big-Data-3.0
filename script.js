@@ -13,7 +13,7 @@ formulario.addEventListener("submit", function(e){
 
     let edad = document.getElementById("edad").value;
 
-    let correo = document.getElementById("correo").value;
+    let lugar = document.getElementById("Lugar de Procedencia").value;
 
 
     tablaDatos.innerHTML += `

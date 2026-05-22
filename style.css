@@ -1,42 +1,116 @@
 body{
-    font-family: Arial;
-    background: #f4f4f4;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+
 }
 
 .contenedor{
+
     width: 80%;
     margin: auto;
-    background: white;
-    padding: 20px;
     margin-top: 30px;
-    border-radius: 10px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+}
+
+h1{
+
+    text-align: center;
+    color: #0d6efd;
+
+}
+
+h2{
+
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+
 }
 
 input{
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
+
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+
 }
 
 button{
-    background: green;
+
+    margin-top: 15px;
+    padding: 12px;
+    background: #198754;
     color: white;
-    padding: 10px;
     border: none;
-    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background: #146c43;
+
 }
 
 table{
+
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+
 }
 
-table, th, td{
-    border: 1px solid gray;
+table th{
+
+    background: #0d6efd;
+    color: white;
+    padding: 12px;
+
 }
 
-th, td{
+table td{
+
     padding: 10px;
+    border: 1px solid #ccc;
     text-align: center;
+
+}
+
+footer{
+
+    margin-top: 20px;
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+
+}
+
+@media(max-width:768px){
+
+    .contenedor{
+
+        width: 95%;
+
+    }
+
 }
